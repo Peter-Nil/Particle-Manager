@@ -27,10 +27,10 @@ C/C++ -> General -> Additional Include Directories: ".;Include;"
 Linker -> Input -> Additional Dependencies: "DevIL.lib;ILU.lib;ILUT.lib;glut32.lib;opengl32.lib;glu32.lib;glew32.lib;cg.lib;cgD3D9.lib;cgD3D10.lib;cgD3D11.lib;cgGL.lib;TinyXML.lib;%(AdditionalDependencies)"
 
 * Dependencies
-- DevIL Library (DevIL.lib, ILU.lib, ILUT.lib)
-- OpenGL Library (glut32.lib, opengl32.lib, glu32.lib, glew32.lib)
-- NVIDIA's "C for graphics" (cg.lib, cgD3D9.lib, cgD3D10.lib, cgD3D11.lib and cgGL.lib)
-- TinyXML Library (TinyXML.lib)
+** DevIL Library (DevIL.lib, ILU.lib, ILUT.lib)
+** OpenGL Library (glut32.lib, opengl32.lib, glu32.lib, glew32.lib)
+** NVIDIA's "C for graphics" (cg.lib, cgD3D9.lib, cgD3D10.lib, cgD3D11.lib and cgGL.lib)
+** TinyXML Library (TinyXML.lib)
 
 ### Who do I talk to? ###
 
