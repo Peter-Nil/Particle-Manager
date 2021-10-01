@@ -1,0 +1,1 @@
+﻿This work has been done for the Bachelor thesis for the game development program at University of Skövde.
