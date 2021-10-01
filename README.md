@@ -44,23 +44,23 @@ The purpose of this repository is to hold project code for a master thesis writt
 
 | Keys					| Description														    |
 | --------------------- | --------------------------------------------------------- |
-| **Key "<"Right-click">"** | opens menu 											    |
-| **Key <F1>**			| changes to XY view									    |
-| **Key <F2>**			| changes to ZY view									    |
-| **Key <F3>**			| changes to zx view									    |
-| **Key <F4>**			| changes to perspective view							    |
-| **Key <F5>**			| toggle ragdoll joints (used for skinning in ragdoll demo) |
-| **Key <F9>**			| toggle full-sceen											|
-| **Key <F10>**			| toggle grid												|
-| **Key <F11>**			| toggle snap												|
-| **Key <F12>**			| toggle output												|
-| **Key <Shift-F1>**	| particle demo												|
-| **Key <Shift-F2>**	| particle cuboid demo										|
-| **Key <Shift-F3>**	| joint demo												|
-| **Key <Shift-F4>**	| hinge demo												|
-| **Key <Shift-F5>**	| ragdoll demo												|
-| **Key <HOME>**		| shows help												|
-| **Key <ESC>**			| exits the program											|
+| **Key \<Right-click\>** | opens menu 											    |
+| **Key \<F1\>**			| changes to XY view									    |
+| **Key \<F2\>**			| changes to ZY view									    |
+| **Key \<F3\>**			| changes to zx view									    |
+| **Key \<F4\>**			| changes to perspective view							    |
+| **Key \<F5\>**			| toggle ragdoll joints (used for skinning in ragdoll demo) |
+| **Key \<F9\>**			| toggle full-sceen											|
+| **Key \<F10\>**			| toggle grid												|
+| **Key \<F11\>**			| toggle snap												|
+| **Key \<F12\>**			| toggle output												|
+| **Key \<Shift-F1\>**	| particle demo												|
+| **Key \<Shift-F2\>**	| particle cuboid demo										|
+| **Key \<Shift-F3\>**	| joint demo												|
+| **Key \<Shift-F4\>**	| hinge demo												|
+| **Key \<Shift-F5\>**	| ragdoll demo												|
+| **Key \<HOME\>**		| shows help												|
+| **Key \<ESC\>**			| exits the program											|
 
 #### Camera Bindings (Perspective View, 'F4') ####
 
