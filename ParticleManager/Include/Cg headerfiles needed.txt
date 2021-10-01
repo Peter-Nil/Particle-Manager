@@ -1,0 +1,7 @@
+Header files needed to download and inlucde in the "Cg" folder which recides in same folder as this file:
+
+cg.h
+cgD3D9.h
+cgD3D10.h
+cgD3D11.h
+cgGl.h

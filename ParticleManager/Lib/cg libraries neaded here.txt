@@ -1,0 +1,7 @@
+Libraries needed to download and inlucde in the same folder as this file:
+
+cg.lib
+cgD3D9.lib
+cgD3D10.lib
+cgD3D11.lib
+cgGL.lib
