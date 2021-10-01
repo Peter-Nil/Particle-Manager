@@ -84,8 +84,8 @@ The purpose of this repository is to hold project code for a master thesis writt
 
 | Special keys **with** 'Shift' pressed | Description										  			  	|
 | ------------------------------------- | ----------------------------------------------------------------- |
-| **Key <Up>**:							| same as 'Page Up' key without modifiers, for use if its missing	|
-| **Key <Down>**: 						| same as 'Page Down' key without modifiers, for use if its missing	|
+| **Key <Up>**							| same as 'Page Up' key without modifiers, for use if its missing	|
+| **Key <Down>** 						| same as 'Page Down' key without modifiers, for use if its missing	|
 
 #### Demo Ragdoll Bindings ####
 
