@@ -66,58 +66,58 @@ The purpose of this repository is to hold project code for a master thesis writt
 
 | Special keys **without** <Ctrl> or <Alt> pressed | Description														    	   			  |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
-| **Key <Left>**								   | circulates the camera **clockwise** around its focus point 	   			  |
-| **Key <Right>**								   | circulates the camera **counterclockwise** around its focus point 			  |
-| **Key <Up>**									   | moves the camera and its focus point **inwards** in its current direction    |
-| **Key <Down>**								   | moves the camera and its focus point **outwards** from its current direction |
-| **Key <Page Up>** 							   | moves the camera **upwards** (tilts the camera down)						  |
-| **Key <Page Down>**							   | moves the camera **downwards** (tilts the camera up)						  |
+| **Key \<Left\>**								   | circulates the camera **clockwise** around its focus point 	   			  |
+| **Key \<Right\>**								   | circulates the camera **counterclockwise** around its focus point 			  |
+| **Key \<Up\>**									   | moves the camera and its focus point **inwards** in its current direction    |
+| **Key \<Down\>**								   | moves the camera and its focus point **outwards** from its current direction |
+| **Key \<Page Up\>** 							   | moves the camera **upwards** (tilts the camera down)						  |
+| **Key \<Page Down\>**							   | moves the camera **downwards** (tilts the camera up)						  |
 
 | Special keys **with** <Ctrl> pressed | Description													      |
 | ------------------------------------ | -------------------------------------------------------------------- |
-| **Key <Left>**			  		   | circulates the camera **counterclockwise** around its own position   |
-| **Key <Right>**			  		   | circulates the camera **clockwise** around its own position		  |
-| **Key <Up>**				  		   | moves the focus point **upwards** (tilts the camera up)			  |
-| **Key <Down>**			  		   | moves the focus point **downwards** (tilts the camera down)		  |
-| **Key <Page Up>** 		  		   | moves the focus point **upwards** (tilts the camera up)			  |
-| **Key <Page Down>**		  		   | moves the focus point **downwards** (tilts the camera down)		  |
+| **Key \<Left\>**			  		   | circulates the camera **counterclockwise** around its own position   |
+| **Key \<Right\>**			  		   | circulates the camera **clockwise** around its own position		  |
+| **Key \<Up\>**				  		   | moves the focus point **upwards** (tilts the camera up)			  |
+| **Key \<Down\>**			  		   | moves the focus point **downwards** (tilts the camera down)		  |
+| **Key \<Page Up\>** 		  		   | moves the focus point **upwards** (tilts the camera up)			  |
+| **Key \<Page Down\>**		  		   | moves the focus point **downwards** (tilts the camera down)		  |
 
 | Special keys **with** 'Shift' pressed | Description										  			  	|
 | ------------------------------------- | ----------------------------------------------------------------- |
-| **Key <Up>**							| same as 'Page Up' key without modifiers, for use if its missing	|
-| **Key <Down>** 						| same as 'Page Down' key without modifiers, for use if its missing	|
+| **Key \<Up\>**							| same as 'Page Up' key without modifiers, for use if its missing	|
+| **Key \<Down\>** 						| same as 'Page Down' key without modifiers, for use if its missing	|
 
 #### Demo Ragdoll Bindings ####
 
 | Number keys             	  | Description																																		  |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Key <1-3>**		  	  	  |	sets ragdoll type to 1, 2 or 3																													  |
-| **Key <4>**			  	  |	sets constraint solver type to 1: uses relaxation. 3 relaxation loops																			  |
-| **Key <5>**			  	  |	sets constraint solver type to 2: uses relaxation and priority on biggest displacement. 3 relaxation loops										  |
-| **Key <6>**			  	  |	sets constraint solver type to 2: uses relaxation and priority on biggest displacement. 1 relaxation loops										  |
-| **Key <7>**			  	  |	sets constraint solver type to 3: uses relaxation and priority on simulated closing velocity and simulated displacement. 3 relaxation loops. TODO |
-| **Key <8>**			  	  |	sets constraint solver type to 4: uses relaxation and priority on largest closing velocity. 3 relaxation loops									  |
+| **Key \<1-3\>**		  	  	  |	sets ragdoll type to 1, 2 or 3																													  |
+| **Key \<4\>**			  	  |	sets constraint solver type to 1: uses relaxation. 3 relaxation loops																			  |
+| **Key \<5\>**			  	  |	sets constraint solver type to 2: uses relaxation and priority on biggest displacement. 3 relaxation loops										  |
+| **Key \<6\>**			  	  |	sets constraint solver type to 2: uses relaxation and priority on biggest displacement. 1 relaxation loops										  |
+| **Key \<7\>**			  	  |	sets constraint solver type to 3: uses relaxation and priority on simulated closing velocity and simulated displacement. 3 relaxation loops. TODO |
+| **Key \<8\>**			  	  |	sets constraint solver type to 4: uses relaxation and priority on largest closing velocity. 3 relaxation loops									  |
 
 
 | Letter keys			  	  |	Description											  			 		   |
 | --------------------------- | -------------------------------------------------------------------------- |
-| **Key <A>**			  	  | gives the selected body part an upward force push				 		   |
-| **Key <B>**			  	  | prints info about the bones of the ragdoll to console				 	   |
-| **Key <C>**			  	  | rotates ragdoll skin along y-axel (experimental)					 	   |
-| **Key <D>**			  	  |	switches draw state e.g. debug mode (normal, debug, skin only, no drawing) |
-| **Key <F>**			  	  |	toggle skin rendering (experimental)		 		   					   |
-| **Key <G>**			  	  |	toggle gravity										  			 		   |
-| **Key <I>**			  	  |	starts recording scenario 2 statistics (resets simulation first) 		   |
-| **Key <J>**			  	  |	increments selected body part index					  			 		   |
-| **Key <K>**			  	  |	decrements selected body part index					  			 		   |
-| **Key <L>**			  	  |	toggle ragdoll joint position rendering					  			 	   |
-| **Key <R>**			  	  |	resets the simulation								  			 		   |
-| **Key <S>**			  	  |	gives the selected body part an eastward force push				 		   |
-| **Key <T>**			  	  |	starts recording statistics							  			 		   |
-| **Key <U>**			  	  |	starts recording scenario 1 statistics (resets simulation first) 		   |
-| **Key <X>**			  	  |	rotates ragdoll skin along x-axel (experimental)	  			 		   |
-| **Key <Y>**			  	  |	stops recording statistics and cancels the process	  			 		   |
-| **Key <Z>**			  	  |	rotates ragdoll skin along z-axel (experimental)	  			 		   |
+| **Key \<A\>**			  	  | gives the selected body part an upward force push				 		   |
+| **Key \<B\>**			  	  | prints info about the bones of the ragdoll to console				 	   |
+| **Key \<C\>**			  	  | rotates ragdoll skin along y-axel (experimental)					 	   |
+| **Key \<D\>**			  	  |	switches draw state e.g. debug mode (normal, debug, skin only, no drawing) |
+| **Key \<F\>**			  	  |	toggle skin rendering (experimental)		 		   					   |
+| **Key \<G\>**			  	  |	toggle gravity										  			 		   |
+| **Key \<I\>**			  	  |	starts recording scenario 2 statistics (resets simulation first) 		   |
+| **Key \<J\>**			  	  |	increments selected body part index					  			 		   |
+| **Key \<K\>**			  	  |	decrements selected body part index					  			 		   |
+| **Key \<L\>**			  	  |	toggle ragdoll joint position rendering					  			 	   |
+| **Key \<R\>**			  	  |	resets the simulation								  			 		   |
+| **Key \<S\>**			  	  |	gives the selected body part an eastward force push				 		   |
+| **Key \<T\>**			  	  |	starts recording statistics							  			 		   |
+| **Key \<U\>**			  	  |	starts recording scenario 1 statistics (resets simulation first) 		   |
+| **Key \<X\>**			  	  |	rotates ragdoll skin along x-axel (experimental)	  			 		   |
+| **Key \<Y\>**			  	  |	stops recording statistics and cancels the process	  			 		   |
+| **Key \<Z\>**			  	  |	rotates ragdoll skin along z-axel (experimental)	  			 		   |
 
 | Mouse key			      	  | Description																		          |
 | --------------------------- | ----------------------------------------------------------------------------------------- |
