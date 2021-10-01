@@ -44,7 +44,7 @@ The purpose of this repository is to hold project code for a master thesis writt
 
 | Keys					| Description														    |
 | --------------------- | --------------------------------------------------------- |
-| **Key Right-click** | opens menu 											    |
+| **Key "<"Right-click">"** | opens menu 											    |
 | **Key <F1>**			| changes to XY view									    |
 | **Key <F2>**			| changes to ZY view									    |
 | **Key <F3>**			| changes to zx view									    |
