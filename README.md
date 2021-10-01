@@ -6,7 +6,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Summary ###
 
-This project is the source code for a master thesis
+This project is the source code for a master thesis about ragdoll physics.
 
 ### What is this repository for? ###
 
@@ -16,27 +16,25 @@ The purpose of this repository is to hold project code for a master thesis writt
 * Version
 0.0.1 (Alpha-phase)
 
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
 ### How do I get set up? ###
 
 * Summary of set up
+
 * Configuration
+This project used Visual Studio 2017 (v141).
+It used Multi-Byte Character Set to work with the parts of OpenTissue (https://github.com/erleben/OpenTissue) that was included in the project.
+C/C++ -> General -> Additional Include Directories: ".;Include;"
+Linker -> Input -> Additional Dependencies: "DevIL.lib;ILU.lib;ILUT.lib;glut32.lib;opengl32.lib;glu32.lib;glew32.lib;cg.lib;cgD3D9.lib;cgD3D10.lib;cgD3D11.lib;cgGL.lib;TinyXML.lib;%(AdditionalDependencies)"
+
 * Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
+- DevIL Library (DevIL.lib, ILU.lib, ILUT.lib)
+- OpenGL Library (glut32.lib, opengl32.lib, glu32.lib, glew32.lib)
+- NVIDIA's "C for graphics" (cg.lib, cgD3D9.lib, cgD3D10.lib, cgD3D11.lib and cgGL.lib)
+- TinyXML Library (TinyXML.lib)
 
 ### Who do I talk to? ###
 
 * Repo owner or admin
-* Other community or team contact
 
 ### Keybindings ###
 
