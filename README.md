@@ -1,5 +1,7 @@
 # README #
 
+This work has been done for the Bachelor thesis for the game development program at University of Skövde.
+
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### Summary ###
